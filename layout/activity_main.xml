@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My First Application In Android"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@android:color/background_light"/>
+
+
+
+
+
+
+    <Button android:id="@+id/btnStartService"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="HII"
+        android:layout_gravity="center"/>
+
+    <Button android:id="@+id/btnStartService"
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="My😊"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="Best Friend" />
+</LinearLayout>
